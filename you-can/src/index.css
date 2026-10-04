@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@theme{
+  --color-primary: #319bd8;
+
+}
+
+body{
+  /* color: #319bd8; */
+@apply font-stretch-ultra-expanded font-bold min-h-screen
+bg-neutral-50}
+
+h2{
+  @apply font-bold py-4
+}
+@keyframes marquee{
+  0%{transform: translateX(0)}
+  50%{transform: translateX(-50%)}
+  100%{transform:translateX(-100%)}
+}
