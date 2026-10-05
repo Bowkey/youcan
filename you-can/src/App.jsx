@@ -1,11 +1,13 @@
-import FaqSection from "./components/FaqSection.jsx"
-import Hero from "./components/Hero.jsx"
-import NavBar from "./components/NavBar.jsx"
-import Section from "./components/Section.jsx"
-import SliderText from "./components/SliderText.jsx"
-import Team from "./components/Team.jsx"
-import Testimonials from "./components/Testimonials.jsx"
 
+import FaqSection from "./mycomponents/FaqSection.jsx"
+import Hero from "./mycomponents/Hero.jsx"
+import NavBar from "./mycomponents/NavBar.jsx"
+import Section from "./mycomponents/Section.jsx"
+import SliderText from "./mycomponents/SliderText.jsx"
+import Team from "./mycomponents/Team.jsx"
+import Testimonials from "./mycomponents/Testimonials.jsx"
+import Location from "./mycomponents/Location.jsx"
+import Footer from "./mycomponents/Footer.jsx"
 
 function App() {
 
@@ -21,7 +23,9 @@ function App() {
       <Testimonials />
       <Team />
       <FaqSection />
+      <Location />
     </div>
+      <Footer />
     </>
   )
 }

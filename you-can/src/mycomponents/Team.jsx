@@ -84,18 +84,18 @@ function Team() {
 
       <div className='flex flex-row overflow-x-scroll scrollbar-none'>
         {Team.map((team, index) => (
-          <div className='min-w-screen rounded-xl bg-slate-100 p-4 text-center shadow-sm transition hover:shadow-md md:min-w-[20rem] lg:min-w-[25rem]' key={team.image}>
-            <div>
+          <div className=' rounded bg-slate-100'>
+            <div className='m-3 '>
               <img src={team.image}
-              className="w-2xs" alt="team-member" />
+                className="min-w-sm" alt="team-member" />
+              <div className='text-primary text-2xl'>
+                {team.name}
+              </div>
+              <div key={team.name}>
+                {team.position}
+              </div>
             </div>
 
-            <div className='text-primary text-2xl'>
-              {team.name}
-            </div>
-            <div>
-              {team.position}
-            </div>
 
 
 
