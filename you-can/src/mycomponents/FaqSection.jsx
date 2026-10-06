@@ -59,8 +59,6 @@ we support clients until they start their journey`
 
   // document.getElementById("accord").style.display = "none"
 
-const [pressed, setPressed]= useState();
-
   return (
     <section>
 
@@ -102,11 +100,11 @@ const [pressed, setPressed]= useState();
               Jobs with accommodation provided
               Opportunities with fast hiring process</p>
 
-            <button id="expand" 
-  
-              
+            <button id="expand"
 
-            
+
+
+
             >
               Expand
             </button>
@@ -119,7 +117,7 @@ const [pressed, setPressed]= useState();
 
         </div>
       </div>
-      
+
     </section >
   )
 }

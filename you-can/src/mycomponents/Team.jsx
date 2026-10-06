@@ -10,64 +10,64 @@ function Team() {
   {
     image: "https://www.youcan.legal/wp-content/uploads/2025/07/ol-740x960.jpg",
     name: "Oleh Shuba",
-    positon: "Cheif Marketing Officer"
+    position: "Cheif Marketing Officer"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2025/11/ludmila-740x960.jpg",
     name: "Liumila Kantsler",
-    positon: "Senior Immigration Expert"
+    position: "Senior Immigration Expert"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/02/tatiana-740x960.jpg",
     name: "Tetiana Kodlubai",
-    positon: "Senior Immigration Expert"
+    position: "Senior Immigration Expert"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/02/5242240789067274766-740x960.jpg",
     name: "Oleh Ponomarenko",
-    positon: "Senior Imigration Expert"
+    position: "Senior Imigration Expert"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/03/5285347400132270879-740x960.jpg",
     name: "Alina Bashynska",
-    positon: "Senior Immigration Expert"
+    position: "Senior Immigration Expert"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/03/5357542892685169824-740x960.jpg",
     name: "Yana Volkova",
-    positon: "Senior Immigration expert"
+    position: "Senior Immigration expert"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/04/5409340039361139552-740x960.jpg",
     name: "Julia Ivanchenko",
-    positon: "Senior Immigration expert"
+    position: "Senior Immigration expert"
   },
 
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/05/jack-e1777625246381-740x960.jpg",
     name: "Jack Zhuravel",
-    positon: "Senior Immigration Epert"
+    position: "Senior Immigration Epert"
   },
 
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/04/Oleksandra-Hlushakova-740x960.jpg",
     name: "Oleksandra Hlushakova",
-    positon: "Senior Immigration Expert"
+    position: "Senior Immigration Expert"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/05/5220096633473801220-740x960.jpg",
     name: "Yula Pylypenko",
-    positon: "Senior Imigration Expert"
+    position: "Senior Imigration Expert"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/06/nat-740x960.jpg",
     name: "Nataliia Komendatenko",
-    positon: "Senior Immigration Expert"
+    position: "Senior Immigration Expert"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/07/david-740x960.jpg",
     name: "David Kovtun",
-    positon: "Senior Immigration Expert"
+    position: "Senior Immigration Expert"
   },
   {
     image: "https://www.youcan.legal/wp-content/uploads/2026/08/elizabeth-740x960.jpg",
@@ -85,7 +85,7 @@ function Team() {
       <div className='flex flex-row overflow-x-scroll scrollbar-none'>
         {Team.map((team, index) => (
           <div className=' rounded bg-slate-100'>
-            <div className='m-3 '>
+            <div className='m-3 flex flex-col justify-center items-center gap-2'>
               <img src={team.image}
                 className="min-w-sm" alt="team-member" />
               <div className='text-primary text-2xl'>

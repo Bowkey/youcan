@@ -15,9 +15,9 @@ function Hero() {
     <section className='min-h-screen flex flex-col md:flex-row'>
       <div className='flex flex-col gap-10 py-10'>
         <div className='font-bold text-4xl mb-4'>
-          <h2>We Help People Change Their Lives For The Better</h2>
+          <h2>We Help People <span className='text-blue-500'>Change</span> Their Lives For The Better</h2>
         </div>
-        <div>Study. Work. Live Abroad - Legally</div>
+        <div>Study. Work. Live Abroad <span className='text-blue-500'>- Legally</span></div>
 
         <div className='flex flex-row items-center gap-3'>
           <img src={faces} alt="" style={styles.faces} />
@@ -25,8 +25,8 @@ function Hero() {
             <span>700+</span> <span>Happy <br />Client</span></span>
         </div>
 
-        <div className='flex gap-7 bg-amber-200 text-2xl items-center'>
-          <ArrowRight size={50}/>
+        <div className='flex gap-7 text-2xl items-center hover:cursor-pointer hover:bg-blue-500 max-w-fit hover:text-white px-2.5 rounded transition-all duration-300 group'>
+          <ArrowRight size={50} className='bg-blue-500 text-white min-h-fit px-2.5 rounded transition-transform duration-300 group-hover:translate-x-2' />
           <span>Explore</span>
         </div>
 
